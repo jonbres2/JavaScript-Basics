@@ -1,10 +1,9 @@
-// function d6(){
-//     var roll = Math.ceil(Math.random()*6);
-//     return roll;
-// }
+function d6(){
+    var roll = Math.ceil(Math.random()*6);
+    return roll;
+}
 
-// console.log("The player rolled: " + d6());
-
+console.log("The player rolled: " + d6());
 
 
 function oracle(){
@@ -30,7 +29,7 @@ function oracle(){
     "Outlook not so good.",
     "Very doubtful."
     ];
-    ;var index = Math.floor(Math.random()*20);
+    var index = Math.floor(Math.random()*20);
     return answers[index];
 }
 
