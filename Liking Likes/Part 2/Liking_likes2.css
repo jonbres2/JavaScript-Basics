@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 800px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    height: 25px;
+    margin: 0px;
+    padding: 10px 10px 20px 20px;
+}
+
+.feed {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+}
+
+.leftColumn{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.rightColumn{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-left: 10px;
+}
+
+.profile{
+    display: flex;
+    height: 290px;
+    border: 5px solid black;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile img{
+    margin: 30px 10px 0px 10px;
+    width: 100px;
+}
+
+.profile a{
+    margin: 30px 10px 10px 10px;
+    font-size: 18px;
+    color: #0c5394;
+    font-weight: bold;
+}
+
+.likeBox{
+    border: 5px solid black;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+.likeBox div{
+    display: flex;
+    align-items: center;
+}
+
+.likeBox div h1{
+    flex: 3;
+}
+
+.likeBox div h2{
+    font-size: 22px;
+    flex: 1;
+}
+
+.likeBox div button{
+    flex: 1;
+    border: 5px solid black;
+    box-shadow: 5px 5px;
+    font-size: 22px;
+    height: 40px;
+    width: 80px;
+    background-color: gold;
+}
+
+.likeBox p{
+    font-size: 22px;
+}
