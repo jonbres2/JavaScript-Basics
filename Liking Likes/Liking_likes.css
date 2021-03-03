@@ -1,0 +1,30 @@
+.likeBox{
+    border: 5px solid black;
+    width: 500px;
+    height: auto;
+    padding: 0px 20px;
+    font-family: sans-serif;
+}
+
+h1{
+    display: inline-block;
+}
+
+h2{
+    font-size: 22px;
+    display:inline-block;
+    margin: 0px 50px 0px 100px;
+}
+
+button{
+    border: 5px solid black;
+    box-shadow: 5px 5px;
+    font-size: 22px;
+    height: 40px;
+    width: 80px;
+    background-color: gold;
+}
+
+p{
+    font-size: 22px;
+}

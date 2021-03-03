@@ -33,4 +33,31 @@ function oracle(){
     return answers[index];
 }
 
-console.log(oracle());
+
+function getMax(arr){
+    var max = arr[0];
+    for (var i = 0; i < arr.length; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    console.log("The max is: " + max);
+}
+
+function getSecondToMax(arr){
+    var max = arr[0];
+    var secondMax = arr[0];
+    for (var i = 0; i < arr.length; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    for (var i = 0; i < arr.length; i++){
+        if (arr[i] > secondMax && arr[i] < max){
+            secondMax = arr[i];
+        }
+    }
+    console.log("The second max is: " + secondMax)
+}
+
+getSecondToMax([3, 15, 20, 8, 16, 10])
